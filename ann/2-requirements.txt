@@ -1,0 +1,43 @@
+What you need to run the practical sessions:
+
+1. basics
+
+- Python 3
+- Jupyter Notebooks
+
+2. python packages
+
+Mac and Windows users with Anaconda can check these are installed using the
+Anaconda explorer
+
+Or, you can install via (sudo -H pip3 install ...)
+
+You may find it useful to set up a python virtualenv for these
+requirements. (Don't worry if you don't know what this is, it is not
+necessary)
+
+
+A. For basic tutorials:
+
+- pandas, nltk, scipy, numpy, seaborn, matplotlib, gensim, sklearn (scikit-learn)
+
+B. To follow along with later demos:
+
+- keras, tensortflow (or theano), 
+
+3. nltk corpora
+
+You also need these nltk corpora,
+
+brown, movie_reviews
+
+using e.g. from a python prompt:
+
+import nltk
+nltk.download('brown')
+nltk.download('movie_reviews')
+
+4. start jupyter with:
+
+jupyter notebook
+
